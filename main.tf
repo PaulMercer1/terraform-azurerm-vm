@@ -34,7 +34,7 @@ resource "azurerm_linux_virtual_machine" "example" {
   source_image_reference {
     publisher = "Canonical"
     offer     = "UbuntuServer"
-    sku       = var.ubuntu_version
+    sku       = "16.04-LTS"
     version   = "latest"
   }
 }
