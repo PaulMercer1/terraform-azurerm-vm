@@ -11,11 +11,6 @@ variable "user_name"{
     type = string
 }
 
-variable "ubuntu_version" {
-  type =string
-  default = "16.04-LTS"
-}
-
 variable "location"{
     type = string
 }
